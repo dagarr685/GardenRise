@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.game {
+  width: 100vw;
+  height: 100vh;
+  display: block;
+  background-color: #160040;
+  position: relative;
+}
+
+.top {
+  display: flex;
+  width: 100vw;
+  height: calc(50% - 256px);
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  color: #99ddcc;
+  padding-left: calc(50% - 512px);
+  font-size: 32px;
+  text-align: center;
+}
+
+.score {
+  color: #99ddcc;
+  font-size: 32px;
+  padding-right: calc(50% - 512px);
+  text-align: center;
+}
+
+.myCanvas {
+  position: absolute;
+  left: calc(50% - 512px);
+  top: calc(50% - 256px);
+}
+
+.assets {
+  display: none;
+}
